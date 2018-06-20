@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { InlineComponent } from './inline/inline.component';
+import { MarvellousCompComponent } from './marvellous-comp/marvellous-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InlineComponent
+    InlineComponent,
+    MarvellousCompComponent
   ],
   imports: [
     BrowserModule
