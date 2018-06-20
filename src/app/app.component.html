@@ -1,6 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-    <h5>Assignment 1</h5>
+    <h2>Assignment 1</h2>
   <h4>Marvellous Infosystems</h4>
   <h5>Educating for better tomorrow</h5>
   <h4>
@@ -8,7 +8,7 @@
   </h4>
  <app-inline></app-inline>
   
- <h5>Assignment 2</h5>
+ <h2>Assignment 2</h2>
  <i>Question 1</i>
  <br>
  <input type="text"><br>
@@ -36,7 +36,40 @@
 <i>Question 5</i>
 <br>
 {{ Name}}
+<br>
 
+<h2>Assignment 3</h2>
+
+<i>Question 1</i>
+<p>
+    inside-root
+  </p>
+<app-inside-first></app-inside-first>
+<app-inside-second></app-inside-second>
+<br>
+<i>Question 2</i>
+
+<app-inside-first></app-inside-first>
+<app-inside-second></app-inside-second>
+
+<i>Question 3</i>
+<p>Functtion call Please checck console log for output</p>
+{{getalert()}}
+
+<br>
+<i>Question 4</i>
+<h6>Length of title</h6>
+{{title.length}}
+
+<h6>Uppercase title</h6>
+{{title.toUpperCase()}}
+
+<br>
+<i>Question 5</i><br>
+<br>
+<input [(ngModel)]="InputName" >
+<br>
+<button (click)="buttonClick()">Click me</button>
 </div>
 
 
