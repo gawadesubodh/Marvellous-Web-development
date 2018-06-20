@@ -1,4 +1,11 @@
+
 import { Component } from '@angular/core';
+import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
+import { NgModule } from '@angular/core';
+
+import {FormsModule} from '@angular/forms';
+
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +15,22 @@ import { Component } from '@angular/core';
   }`]
 })
 
-export class AppComponent {
+export class AppComponent   implements OnInit {
   title = 'Marvellous Infosystems';
   Name='Marvellous';
+InputName="Button not click";
+
+  ngOnInit(){
+     
+      
+  }
+  getalert  () {
+
+    console.log('You have in function');
+    
+  }
+  buttonClick(){
+    this.InputName="Button click";
+  }
+
 }
